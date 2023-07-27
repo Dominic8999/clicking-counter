@@ -31,6 +31,7 @@ function reset() {
 
 if (count === 100) {
     count = 0;
+    countEl.textContent = count
     console.log("The number was: 100 and was reseted because of it")
 }
 else {
