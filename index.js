@@ -28,12 +28,3 @@ function reset() {
     saveEl.textContent = "Previous entered: "
     console.log("the items were reseted")
 }
-
-if (count === 100) {
-    count = 0;
-    countEl.textContent = count
-    console.log("The number was: 100 and was reseted because of it")
-}
-else {
-    console.log("The number is ok!")
-}
