@@ -1,6 +1,6 @@
-# simple_js_web_app-verssion_2
+# clicking-counter 
 
-Improved:
+Improved (from the first version to the second one):
 - console logs
 - max-width of container
 - changed sign from " - " to ", "
