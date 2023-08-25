@@ -54,3 +54,9 @@ button {
     width: 200px;
     margin: auto auto auto auto;
 }
+
+@media (orientation: landscape) {
+    body {
+        max-height: 1280px;
+    }
+}
