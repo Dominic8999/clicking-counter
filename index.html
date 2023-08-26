@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clicking_counter</title>
     <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <div>
+    <h1>Clicking counter</h1>
+
+    <div class="panel">
+        <h2 id="count-el">0</h2>
         <div>
-            <h1>Clicking counter</h1>
-            <h2 id="count-el">0</h2>
-            <button id="click" btn-primary">click</button>
-            <button  id="save-btn">save</button>
-            <p id="saved" class="d-block">Previous entered: </p>
-            <button id="refresh-btn">refresh</button>
-        </div>
+            <button class="button" id="click" btn-primary"><span class="bi bi-mouse2"> click</span></button>
+            <button class="button" id="save-btn"><span class="bi bi-save"> safe</span></button>
+        </div class='row'>
+        <p id="saved" class="text-p">Previous entered: </p>
+        <button class="button" id="refresh-btn"><span class="bi bi-trash">refresh</span></button>
     </div>
     <script src="index.js"></script>
 </body>
