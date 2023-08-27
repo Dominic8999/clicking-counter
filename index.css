@@ -54,7 +54,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 80vh;
+	max-width: 90%;
 	flex-direction: column;
 }
 
@@ -69,11 +70,14 @@ h1 {
 h2 {
 	background-color: #F8D96D;
 	border: 1px solid #FFC300;
+	position: relative;
 	border-radius: 5px;
 	width: 100%;
-	max-width: 25px;
+	min-width: 25px;
+	max-width: 75px;
 	text-align: center;
 	padding: 5px;
+	font-size: 18.5px;
 }
 
 h2, .panel > .text-p {
