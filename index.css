@@ -55,6 +55,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 80vh;
+	max-height: 70%;
 	max-width: 100%;
 	flex-direction: column;
 }
@@ -92,7 +93,7 @@ h2, .panel > .text-p {
 	max-width: 500px;
 	padding: 15px 25px;
 	flex-direction: column;
-	background-color: white;
+	background-color: #E8E9E8;
 	border-radius: 25px;
 }
 

@@ -28,5 +28,5 @@ buttons.reset.addEventListener("click",function() {
     countEl.textContent = 0
     count = 0
     saveEl.textContent = "Previous entered: "
-    console.log("the items were reseted")
+    console.warn("the items were reseted")
 })
